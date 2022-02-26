@@ -1,0 +1,380 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v29-latin-regular.woff2') format('woff2'), 
+    url('../fonts/roboto-v29-latin-regular.woff') format('woff'); 
+}
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+}
+.container{
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 17px;
+    margin-bottom: 26px;
+}
+.header__link{
+    font-family: Roboto Slab;
+    font-size: 27px;
+    color: #1C1C1C;
+}
+.header__box{
+    display: flex;
+    align-items: center;
+}
+.header__open{
+    margin-right: 34px;
+}
+.header__text{
+    font-family: Roboto;
+    font-size: 15px;
+    color: #283932;
+}
+.main__section{
+    height: 431px;
+    background-color: #4DBD90;
+    padding-top: 70px;
+}
+.main__box{
+    display: flex;
+    justify-content: space-between;
+}
+.main__grow{
+    max-width: 412px;
+    margin-bottom: 21px;
+    font-size: 38px;
+    color: #FFFFFF;
+}
+.main__mertic{
+    max-width: 425px;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+.main__div{
+    margin-top: 25px;
+}
+.main__sign{
+    padding: 13px 23px;
+    background: #000000;
+    border-radius: 3px;
+    font-size: 16px;
+    color: #FFFFFF;
+    transition:  4s;
+}
+.main__sign:hover{
+    background-color: rgb(67, 104, 104);
+}
+.main__learn{
+    margin-left: 37px;
+    font-size: 16px;
+    color: #000000;  
+    transition: 3s;  
+}
+.main__learn:hover{
+    color: #0653fa;
+}
+.section__box{
+    height: 145px;
+    background: #3E5C50;
+    padding-top: 28px;
+}
+.section__open{
+    text-align: center;
+}
+.section__press{
+    margin-bottom: 15px;
+    font-size: 15px;
+    line-height: 22px;
+    color: rgba(255, 255, 255, 0.31);
+}
+.section__list{
+    display: flex;
+    
+    justify-content: space-around;
+    margin-right: 50px;
+}
+.section__sync{
+    text-align: center;
+    padding-top: 69px;
+}
+.section__sync{
+    font-size: 29px;
+    color: #333333;
+}
+.drction__ever{
+    margin-top: 10px;
+    font-size: 19px;
+    color: #333333;
+}
+.section__balanci{
+    display: flex;
+    padding-top: 69px;
+}
+.balanci__img{
+    max-width: 460px;
+}
+.balanci__box{
+    margin-left: 20px;
+    padding-top: 30px;
+}
+.application{
+    margin-top: 17px;
+    font-size: 22px;
+    color: #333333;
+}
+.dolor{
+    max-width: 428px;
+    margin-top: 17px;
+    font-size: 22px;
+    line-height: 30px;  
+    color: #333333;
+}
+.app{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 14px;
+}
+.dashboard__open{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 73px;
+}
+.dashboard__text{
+    font-size: 21px;
+    margin-top: 15px;
+    color: #333333;
+}
+.dashboard__lorem{
+    width: 197px;
+    margin-top: 17px;
+    font-size: 15px;
+    line-height: 22px;
+    color: #333333;
+}
+.pricing{
+    height: 687px;
+    background-color:#DDE7ED;
+    margin-top: 74px;
+    padding-top: 69px;
+}
+.pricing__open{
+    text-align: center;
+}
+.pricing__plans{
+    font-size: 29px;
+    color: #333;    
+}
+.pricing__text{
+    margin-top: 10px;
+    font-size: 19px;
+    color: #333333;
+}
+.pricin{
+    display: flex;
+    justify-content: center;
+}
+.start__data{
+    margin-top: 70px;
+    margin-left: 20px;
+    padding-left: 17px;
+    padding-top: 16px;
+    min-width: 220px;
+    min-height: 368px;
+    background: #FFFFFF;
+    border-radius: 3px;
+}
+.starter__open{
+    font-size: 22px;
+color: #2B2B2B;
+}
+.starter__team{
+    font-size: 14px;
+line-height: 22px;
+color: #2B2B2B;
+}
+.starter__span{
+    font-size: 19px;
+line-height: 22px;
+color: #489FD9;
+}
+.starter__hr{
+    margin-top: 13px;
+    margin-bottom: 12px;
+    width: 93px;
+    height: 1px;
+    border: none;
+    background: #DBDBDB;
+}
+.starter__email{
+    font-size: 14px;
+color: #2B2B2B;
+}
+.starter__text{
+    margin-top: 14px;
+    font-size: 14px;
+line-height: 18px;
+color: #C7C5C5;
+}
+.starter__plan{
+    display: inline-block;
+    margin-top: 28px;
+    background-color: #000000;
+    padding: 10px 45px;
+    font-size: 16px;
+line-height: 22px;
+color: #FFFFFF;
+border-radius: 3px;
+}
+.starter__div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 19px;
+}
+.starter__lorem{
+    font-size: 16px;
+    color: #333333;
+}
+.contact__us{
+    margin-left: 4px;
+    font-size: 15px;
+color: #489FD9;
+}
+.people__say{
+    text-align: center;
+    padding-top: 69px;
+}
+.people__what{
+    font-size: 29px;
+color: #333333;
+}
+.people__donec{
+    margin-top: 45px;
+    font-size: 25px;
+line-height: 31px;
+color: #333333;
+}
+.people___img{
+    min-width: 70px;
+    margin-top: 22px;
+    margin-bottom: 12px;
+}
+.people__kyle{
+    font-size: 16px;
+line-height: 22px;
+color: #333333;
+}
+.brent{
+    margin-top: 71px;
+    height: 156px;
+    background-color: #A1BFD4;
+}
+.brent__box{
+    display: flex;
+    justify-content: center;
+}
+.newsletter{
+    height: 245px;
+    background: #2B2C2E;
+}
+.footer__div{
+    display: flex;
+    padding-top: 35px;
+}
+.newsletter__link{
+    font-size: 27px;
+color: #E6EAED;
+}
+.newsletter__lorem{
+    margin-top: 25px;
+    font-size: 15px;
+color: #939596;
+}
+.newsletter__img{
+    max-width: 322px;
+    margin-top: 17px;
+}
+.newsletter__ul{
+    display: flex;
+}
+.newsletter__a__img{
+    margin-right: 11px;
+}
+.company{
+    margin-left: 158px;
+}
+.company__text{
+    margin-top: 12px;
+    margin-bottom: 10px;
+    font-size: 17px;
+text-transform: uppercase;
+color: #E4E8EB;
+}
+.company__link{
+    margin-bottom: 1px;
+    font-size: 15px;
+line-height: 22px;
+color: #939596;
+}
+.Product{
+    margin-left: 86px;
+}
+.Legal{
+    margin-left: 69px;
+}
+.footer__box{
+    padding-top: 19px;
+    height: 60px;
+background-color: #1C1D1F;
+}
+.footer__lorem{
+    font-size: 13px;
+color: #939596;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
